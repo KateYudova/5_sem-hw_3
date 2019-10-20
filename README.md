@@ -3,3 +3,5 @@
 Consistently: Finish in 830.5954141616821 seconds
 
 Threads: Finish in 596.418788433075 seconds
+
+Process: Finish in 691.7966821193695 seconds
