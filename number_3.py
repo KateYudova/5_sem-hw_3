@@ -14,7 +14,7 @@ start = time.time()
 if not len(ls):
     print ("No files in this directory")
     exit(0)
-with ProcessPoolExecutor(max_workers=2) as pool:
+with ProcessPoolExecutor(max_workers = 2) as pool:
     for item in ls:
         pool.submit(number_0.get, item)
 print("Process: Finish in %s seconds" % (time.time() - start))
